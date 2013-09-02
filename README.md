@@ -26,6 +26,8 @@ sudo chown -R $USER /opt
 cd /opt
 git clone https://github.com/kitchenplan/kitchenplan.git kitchenplan # or your version
 cd kitchenplan
+sudo xcodebuild -license # if you have not already accepted the xcode licenses
+due to having just installed xcode and xcode cli tools from the dmgs
 ```
 
 Before you run the ```./kitchenplan``` command, first create a custom config file. The config system will always start of with ```default.yml```. This will contain the recipes for every person in your organisation. Next it it will look at the file ```yourusername.yml``` (with the username logged in on the computer as yourusername) for your custom settings. Ofcourse there will be a lot of shared config when your organisation has departments of different types of personel. So you can define group config files and assign one or more groups to a user. The ```roderik.yml``` ([found here](https://github.com/kitchenplan/kitchenplan/blob/master/config/people/roderik.yml)) is my personal config file, the ```travis.yml``` ([found here](https://github.com/kitchenplan/kitchenplan/blob/master/config/people/travis.yml)) is a full example, with both OSX and Ubuntu supported.

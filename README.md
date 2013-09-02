@@ -1,5 +1,10 @@
 # Kitchenplan
 
+This is a modified version of kitchenplan. Currently included is the setup
+necessary to configure a kono laptop and a kono desktop. kono-workstation
+cookbook is heavily used for homebrew casks and replacement configuration from
+the default kitchenplan / pivotal-workstation cookbooks.
+
 ## Why Kitchenplan?
 
 Read about this project and it's values and goals in this blog post: [http://vanderveer.be/blog/2013/04/14/presenting-kitchenplan/](http://vanderveer.be/blog/2013/04/14/presenting-kitchenplan/)
@@ -11,6 +16,13 @@ Read about this project and it's values and goals in this blog post: [http://van
 I myself will use this version, so you can learn from my config files. But you best start of by forking this repo. You will need it to store your configuration files. [If you want to make it private, read up on how Boxen suggest you do this](https://github.com/boxen/our-boxen#bootstrapping)
 
 ### Getting started as a user
+
+*PREQS*
+
+Xcode, Xcode CLI, an ssh key permitted to access github (and bitbucket if
+including those project recipes). You must have accessed github at least once
+via git@github.com to prevent unexpected errors. Currently vundle is not
+performing a BundleInstall in vim. Please complete this manually.
 
 To get started, open up the App Store application and install the latest XCode. After XCode is installed, go to the Preferences and install the Command Line Tools. At this point you have both a compiler and a GIT binary, so we can go to the next step.
 

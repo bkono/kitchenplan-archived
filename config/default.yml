@@ -1,7 +1,7 @@
 recipes:
   global:
     - applications::create_var_chef_cache
-    - java::oracle
+    - kono_workstation::java
     - kono_workstation::scala
     - kono_workstation::maven
     - applications::google-chrome

@@ -24,7 +24,7 @@ recipes:
     - osxdefaults::enable_assistive_devices
     - osxdefaults::enable_safari_debug_menu
     - osxdefaults::finder_allow_text_selection_in_quick_look
-    - osxdefaults::finder_disable_the_warning_when_changing_a_file_extensions
+    - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
     - osxdefaults::finder_new_finder_windows_shows_homefolder
     - osxdefaults::finder_unhide_home
     - osxdefaults::increase_sound_quality_for_bluetooth_headphones

@@ -17,7 +17,7 @@ recipes:
     - kono_workstation::ntfs_3g
     - osxdefaults::add_note_to_loginscreen
     - osxdefaults::check_for_software_updates_daily
-    - osxdefaults::disable_image_verification
+    - osxdefaults::disable_disk_image_verification
     - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
     - osxdefaults::dock_set_magnification_on
     - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock

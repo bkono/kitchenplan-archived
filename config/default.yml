@@ -43,6 +43,7 @@ attributes:
       - user: node['current_user']
   java:
     oracle:
+      owner: node['current_user']
       accept_oracle_download_terms: true
     install_flavor: oracle
     jdk_version: 7

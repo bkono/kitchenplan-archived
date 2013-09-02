@@ -1,7 +1,7 @@
 recipes:
   global:
     - applications::create_var_chef_cache
-    - applications::java
+    - java::oracle
     - kono_workstation::scala
     - kono_workstation::maven
     - applications::google-chrome
@@ -41,3 +41,8 @@ attributes:
   rbenv:
     user_installs:
       - user: node['current_user']
+  java:
+    oracle:
+      accept_oracle_download_terms: true
+    install_flavor: oracle
+    jdk_version: 7

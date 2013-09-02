@@ -2,6 +2,7 @@ site "http://community.opscode.com/api/v1"
 
 cookbook "dmg"
 cookbook "apt"
+cookbook "git"
 cookbook "apache2",               :github => "opscode-cookbooks/apache2"
 cookbook "percona",               :github => "thomasmeeus/chef-percona"
 cookbook "newrelic",              :github => "escapestudios/chef-newrelic"

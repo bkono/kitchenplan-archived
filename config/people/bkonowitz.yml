@@ -1,0 +1,10 @@
+recipes:
+  global:
+    - kono_workstation::dotfiles
+    - applications::htop
+attributes:
+  git:
+    name: Bryan Konowitz
+    email: konowitzb@gmail.com
+  osxdefaults:
+    computername: imac-bk

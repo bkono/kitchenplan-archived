@@ -2,4 +2,7 @@ recipes:
   global:
     - applications::create_var_chef_cache
   mac_os_x:
-    - kono_workstation::default
+    - kono_workstation::rbenv
+attributes:
+  osxdefaults:
+    loginmessage: Property of bkonowitz - konowitzb@gmail.com

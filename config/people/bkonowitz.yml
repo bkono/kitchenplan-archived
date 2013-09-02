@@ -2,6 +2,34 @@ recipes:
   global:
     - kono_workstation::dotfiles
     - applications::htop
+    - applications::bower
+  mac_os_x:
+    - applications::1password
+    - applications::alfred
+    - kono_workstation::cyberduck
+    - applications::diffmerge
+    - applications::evernote
+    - applications::github_for_mac
+    - applications::handbrake
+    - applications::heroku
+    - kono_workstation::hub
+    - applications::skype
+    - applications::sourcetree
+    - applications::spotify
+    - applications::sublime_text
+    - applications::things
+    - applications::viscosity
+    - applications::watch
+    - kono_workstation::arq
+    - kono_workstation::caffeine
+    - kono_workstation::dropbox
+    - sprout-osx-apps::google_voice_and_video
+    - kono_workstation::intellij_community
+    - kono_workstation::iterm2
+    - kono_workstation::pgadmin3
+    - kono_workstation::app_cleaner
+    - kono_workstation::calibre
+    - kono_workstation::cloak
 attributes:
   git:
     name: Bryan Konowitz

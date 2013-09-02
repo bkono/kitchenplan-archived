@@ -12,7 +12,7 @@ recipes:
     - applications::postgresql
   mac_os_x:
     - kono_workstation::rbenv
-    - applications::homebrew_cask
+    - applications::homebrewcask
     - kono_workstation::node
     - kono_workstation::ntfs_3g
     - osxdefaults::add_note_to_loginscreen
@@ -38,3 +38,6 @@ recipes:
 attributes:
   osxdefaults:
     loginmessage: Property of bkonowitz - konowitzb@gmail.com
+  rbenv:
+    user_installs:
+      - user: node['current_user']

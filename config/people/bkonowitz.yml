@@ -4,6 +4,7 @@ recipes:
     - applications::htop
     - applications::bower
   mac_os_x:
+    - kono_workstation::konocasks
     - applications::1password
     - applications::alfred
     - kono_workstation::cyberduck
@@ -23,13 +24,22 @@ recipes:
     - kono_workstation::arq
     - kono_workstation::caffeine
     - kono_workstation::dropbox
-    - sprout-osx-apps::google_voice_and_video
+    - kono_workstation::google_hangouts
     - kono_workstation::intellij_community
     - kono_workstation::iterm2
     - kono_workstation::pgadmin3
     - kono_workstation::app_cleaner
     - kono_workstation::calibre
     - kono_workstation::cloak
+    - kono_workstation::fluid
+    - applications::istatmenus4
+    - kono_workstation::livereload
+    - kono_workstation::mongohub
+    - kono_workstation::ripit
+    - kono_workstation::skitch
+    - kono_workstation::true_crypt
+    - kono_workstation::u_torrent
+    - kono_workstation::parallels_desktop_8
 attributes:
   git:
     name: Bryan Konowitz

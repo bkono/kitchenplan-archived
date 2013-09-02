@@ -1,0 +1,12 @@
+recipes:
+  global:
+    - kono_workstation::dotfiles
+  mac_os_x:
+    - kono_workstation::konocasks
+    - kono_workstation::iterm2
+attributes:
+  git:
+    name: Bryan Konowitz
+    email: konowitzb@gmail.com
+  osxdefaults:
+    computername: imac-bk

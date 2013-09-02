@@ -4,14 +4,39 @@ recipes:
     - kono_workstation::java
     - kono_workstation::scala
     - kono_workstation::maven
+    - applications::google-chrome
+    - applications::firefox
+    - applications::flash
     - zsh::default
     - kono_workstation::zsh_fix
+    - applications::postgresql
     - kono_workstation::tmux
+    - kono_workstation::the_silver_searcher
   mac_os_x:
-    - kono_workstation::dotfiles
     - kono_workstation::rbenv
     - applications::homebrewcask
-    - osxdefaults::set_computer_name
+    - kono_workstation::node
+    - kono_workstation::ntfs_3g
+    - osxdefaults::add_note_to_loginscreen
+    - osxdefaults::check_for_software_updates_daily
+    - osxdefaults::disable_disk_image_verification
+    - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
+    - osxdefaults::dock_set_magnification_on
+    - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
+    - osxdefaults::enable_assistive_devices
+    - osxdefaults::enable_safari_debug_menu
+    - osxdefaults::finder_allow_text_selection_in_quick_look
+    - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
+    - osxdefaults::finder_new_finder_windows_shows_homefolder
+    - osxdefaults::finder_unhide_home
+    - osxdefaults::increase_sound_quality_for_bluetooth_headphones
+    - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
+    - osxdefaults::turn_off_keyboard_illumination_when_computer_is_not_used_for_5_minutes
+    - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
+    - osxdefaults::save_screenshots_in_png_format
+    - osxdefaults::save_screenshots_to_the_desktop
+    - osxdefaults::prevent_time_machine_from_prompting_to_use_new_hard_drives_as_backup_volume
+    - osxdefaults::tap_to_click
 attributes:
   osxdefaults:
     loginmessage: Property of bkonowitz - konowitzb@gmail.com

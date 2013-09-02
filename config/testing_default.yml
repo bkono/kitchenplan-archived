@@ -1,0 +1,27 @@
+recipes:
+  global:
+    - applications::create_var_chef_cache
+    - kono_workstation::java
+    - kono_workstation::scala
+    - kono_workstation::maven
+    - zsh::default
+    - kono_workstation::zsh_fix
+    - kono_workstation::tmux
+  mac_os_x:
+    - kono_workstation::dotfiles
+    - kono_workstation::rbenv
+    - applications::homebrewcask
+    - osxdefaults::set_computer_name
+attributes:
+  osxdefaults:
+    loginmessage: Property of bkonowitz - konowitzb@gmail.com
+  rbenv:
+    user_installs:
+      - user: node['current_user']
+  java:
+    oracle:
+      owner: node['current_user']
+      accept_oracle_download_terms: true
+    install_flavor: oracle
+    jdk_version: 7
+    group: 0

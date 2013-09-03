@@ -8,7 +8,6 @@ recipes:
     - applications::alfred
     - kono_workstation::cyberduck
     - applications::diffmerge
-    - applications::evernote
     - applications::github_for_mac
     - applications::handbrake
     - applications::heroku

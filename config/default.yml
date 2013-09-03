@@ -12,8 +12,9 @@ recipes:
     - applications::postgresql
     - kono_workstation::tmux
     - kono_workstation::the_silver_searcher
-  mac_os_x:
     - kono_workstation::rbenv
+    - kono_workstation::core_gems
+  mac_os_x:
     - applications::homebrewcask
     - kono_workstation::node
     - kono_workstation::ntfs_3g

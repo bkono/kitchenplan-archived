@@ -1,6 +1,5 @@
 recipes:
   global:
-    - kono_workstation::dotfiles
     - applications::htop
     - applications::bower
   mac_os_x:

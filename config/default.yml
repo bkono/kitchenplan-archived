@@ -16,7 +16,7 @@ recipes:
     - kono_workstation::rbenv
     - kono_workstation::core_gems
   mac_os_x:
-    - applications::homebrewcask
+    - kono_workstation::homebrewcasks
     - kono_workstation::node
     - kono_workstation::ntfs_3g
     - osxdefaults::add_note_to_loginscreen

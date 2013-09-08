@@ -3,6 +3,7 @@ recipes:
     - applications::htop
     - applications::bower
   mac_os_x:
+  # any commented out consistently cause errors during unattended install
     - kono_workstation::konocasks
     - applications::1password
     - applications::alfred
@@ -12,7 +13,7 @@ recipes:
     - applications::handbrake
     - applications::heroku
     - kono_workstation::hub
-    - applications::skype
+    # - applications::skype
     - applications::sourcetree
     - applications::spotify
     - applications::sublime_text
@@ -25,7 +26,7 @@ recipes:
     - kono_workstation::google_hangouts
     - kono_workstation::intellij_community
     - kono_workstation::iterm2
-    - kono_workstation::pgadmin3
+    # - kono_workstation::pgadmin3
     - kono_workstation::app_cleaner
     - kono_workstation::calibre
     - kono_workstation::cloak
@@ -35,7 +36,7 @@ recipes:
     - kono_workstation::mongohub
     - kono_workstation::ripit
     - kono_workstation::skitch
-    - kono_workstation::true_crypt
+    # - kono_workstation::true_crypt
     - kono_workstation::u_torrent
     - kono_workstation::parallels_desktop_8
 attributes:

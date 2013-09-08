@@ -38,7 +38,7 @@ recipes:
     - kono_workstation::skitch
     # - kono_workstation::true_crypt
     # - kono_workstation::u_torrent
-    - kono_workstation::parallels_desktop_8
+    # - kono_workstation::parallels_desktop_8
 attributes:
   git:
     name: Bryan Konowitz

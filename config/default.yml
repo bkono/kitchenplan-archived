@@ -6,7 +6,7 @@ recipes:
     - kono_workstation::maven
     - applications::google-chrome
     - applications::firefox
-    - applications::flash
+
     - zsh::default
     - kono_workstation::zsh_fix
     - applications::postgresql
@@ -14,7 +14,6 @@ recipes:
     - kono_workstation::the_silver_searcher
     - kono_workstation::dotfiles
     - kono_workstation::rbenv
-    - kono_workstation::core_gems
   mac_os_x:
     - applications::homebrewcask
     - kono_workstation::node
@@ -39,12 +38,11 @@ recipes:
     - osxdefaults::save_screenshots_to_the_desktop
     - osxdefaults::prevent_time_machine_from_prompting_to_use_new_hard_drives_as_backup_volume
     - osxdefaults::tap_to_click
+    - kono_workstation::core_gems
+    - applications::flash
 attributes:
   osxdefaults:
     loginmessage: Property of bkonowitz - konowitzb@gmail.com
-  rbenv:
-    user_installs:
-      - user: node['current_user']
   java:
     oracle:
       owner: node['current_user']

@@ -5,18 +5,19 @@ recipes:
     - kono_workstation::scala
     - kono_workstation::maven
     - applications::google-chrome
-    - applications::firefox
-
+    - applications::dropbox
     - zsh::default
-    - kono_workstation::zsh_fix
     - applications::postgresql
-    - kono_workstation::tmux
-    - kono_workstation::the_silver_searcher
     - kono_workstation::dotfiles
     - kono_workstation::rbenv
+    - kono_workstation::sublimetext2
   mac_os_x:
     - applications::homebrewcask
+    - kono_workstation::zsh_fix
     - kono_workstation::node
+    - kono_workstation::tmux
+    - kono_workstation::the_silver_searcher
+    - applications::firefox
     - kono_workstation::ntfs_3g
     - osxdefaults::add_note_to_loginscreen
     - osxdefaults::check_for_software_updates_daily

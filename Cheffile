@@ -17,6 +17,8 @@ cookbook "composer",              :github => "kitchenplan/chef-composer"
 cookbook "pivotal-workstation",   :github => "pivotal/pivotal_workstation"
 cookbook "root_ssh_agent",        :github => "dergachev/chef_root_ssh_agent"
 cookbook "kono_workstation",      :github => "moofish32/kono_workstation"
+cookbook "oh-my-zsh",             :github => "moofish32/oh-my-zsh"
+cookbook "typesafe-stack",        :github => "moofish32/chef-typesafe-stack"
 cookbook "ruby_build",            :github => "fnichol/chef-ruby_build"
 cookbook "rbenv",                 :github => "fnichol/chef-rbenv"
 

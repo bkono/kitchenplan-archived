@@ -3,7 +3,6 @@ recipes:
     - applications::create_var_chef_cache
     - kono_workstation::java
     - kono_workstation::maven
-    - typesafe_stack::default
     - applications::google-chrome
     - applications::dropbox
     - oh_my_zsh::default
@@ -11,7 +10,6 @@ recipes:
     - kono_workstation::rbenv
     - kono_workstation::sublimetext2
     - kono_workstation::intellij_community
-    - kono_workstation::spotify
   mac_os_x:
     - applications::homebrewcask
     - kono_workstation::zsh_fix

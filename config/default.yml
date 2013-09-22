@@ -6,9 +6,8 @@ recipes:
     - typesafe_stack::default
     - applications::google-chrome
     - applications::dropbox
-    - zsh::default
+    - oh_my_zsh::default
     - applications::postgresql
-    - kono_workstation::dotfiles
     - kono_workstation::rbenv
     - kono_workstation::sublimetext2
     - kono_workstation::intellij_community
